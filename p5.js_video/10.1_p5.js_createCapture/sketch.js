@@ -1,10 +1,10 @@
 var video;
 
 function setup() {
-  createCanvas(320, 240);
+  createCanvas(1024, 1080);
   background(51);
   video = createCapture(VIDEO);
-  video.size(320, 240);
+  video.size(1024, 1080);
   // video.hide();
 
 }
